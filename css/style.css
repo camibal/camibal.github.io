@@ -770,6 +770,7 @@ a:hover {
 ======================================*/
 
 .work-box {
+  height: 20.3rem;
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
