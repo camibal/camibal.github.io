@@ -15,6 +15,6 @@ function validacion() {
   // Si el script ha llegado a este punto, todas las condiciones
   // se han cumplido, por lo que se devuelve el valor true
   window.open(`https://wa.me/+573202075715?text=` + data);
-  location.reload();
+  // location.reload();
   return true;
 }
