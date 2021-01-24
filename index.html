@@ -615,22 +615,20 @@
                     </h5>
                   </div>
                   <div>
-                    <form action="" method="post" role="form" class="contactForm">
+                    <form action="" method="post" class="contactForm" onsubmit="return validacion()">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
                       <div class="row">
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre"
-                              data-rule="minlen:4" data-msg="Ingrese al menos 4 caracteres" />
-                            <div class="validation"></div>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Tu nombre"/>
+                            <!-- <div class="validation"></div> -->
                           </div>
                         </div>
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required"
-                              data-msg="Por favor escribe tu mensaje" placeholder="Mensaje"></textarea>
-                            <div class="validation"></div>
+                            <textarea class="form-control" name="message" id="message" placeholder="Mensaje"></textarea>
+                            <!-- <div class="validation"></div> -->
                           </div>
                         </div>
                         <div class="col-md-12">
@@ -638,6 +636,11 @@
                         </div>
                       </div>
                     </form>
+                    <!-- <form action="./contactform/contactForm.php" method="post">
+                      <p>Su nombre: <input type="text" name="nombre" /></p>
+                      <p>Su edad: <input type="text" name="edad" /></p>
+                      <p><input type="submit" /></p>
+                     </form> -->
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -661,7 +664,7 @@
                   </div>
                   <div class="socials">
                     <ul>
-                      <li><a href="https://www.facebook.com/camiloandres.ballesterosvillalba.7/" target="_blank"><span
+                      <li><a href="https://www.facebook.com/camiloandres.ballesterosvillalba.3" target="_blank"><span
                             class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
                       <li><a href="https://www.linkedin.com/in/camilo-ballesteros-73353418a" target="_blank"><span
                             class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
@@ -719,7 +722,6 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-  <script src="js/modals.js"></script>
 
 </body>
 
