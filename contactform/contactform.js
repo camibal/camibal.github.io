@@ -1,4 +1,4 @@
-function validacion() {
+function validation() {
   const name = document.getElementById("name").value;
   const message = document.getElementById("message").value;
   if (name == null || name == 0 || name == /^\s+$/.test(name)) {
@@ -10,8 +10,6 @@ function validacion() {
     // Si no se cumple la condicion...
     alert('[ERROR] El campo mensaje debe estar lleno');
     return false;
-  }else{
-      
   }
   let data = 'Nombre: ' + name + ' Mensaje: ' + message;
   // Si el script ha llegado a este punto, todas las condiciones
