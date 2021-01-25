@@ -3,12 +3,12 @@ function validacion() {
   const message = document.getElementById("message").value;
   if (name == null || name == 0 || name == /^\s+$/.test(name)) {
     // Si no se cumple la condicion...
-    alert('[ERROR] El campo nombre debe tener algun valor');
+    alert('[ERROR] El campo nombre debe estar lleno');
     return false;
   }
   else if (message == null || message == 0 || /^\s+$/.test(message)) {
     // Si no se cumple la condicion...
-    alert('[ERROR] El campo mensaje debe tener algun valor');
+    alert('[ERROR] El campo mensaje debe estar lleno');
     return false;
   }else{
       

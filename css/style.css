@@ -771,7 +771,7 @@ a:hover {
 ======================================*/
 
 .work-box {
-  height: 20.3rem;
+  height: 24rem;
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -821,6 +821,11 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+}
+
+.img_portfolio {
+  width: 100%;
+  height: 400px;
 }
 
 /*======================================
@@ -1265,10 +1270,31 @@ footer .credits a {
   .bg-image {
     background-attachment: scroll;
   }
+  .img_portfolio {
+    height: 342px;
+  }
+  .close {
+    bottom: -10%;
+  }
 }
 
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  .img_portfolio {
+    height: 241px;
+  }
+  .close {
+    bottom: -15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .img_portfolio {
+    height: 165px;
+  }
+  .close {
+    bottom: -19%;
   }
 }
