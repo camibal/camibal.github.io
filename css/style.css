@@ -1303,4 +1303,8 @@ footer .credits a {
   .close {
     bottom: -22%;
   }
+  .row_portfolio {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
 }
