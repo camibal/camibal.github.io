@@ -1127,6 +1127,10 @@ footer .credits a {
   .work-box {
     height: auto;
   }
+  .row_portfolio {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1135,9 +1139,5 @@ footer .credits a {
   }
   .close {
     bottom: -22%;
-  }
-  .row_portfolio {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
   }
 }
