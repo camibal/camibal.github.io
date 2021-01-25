@@ -10,6 +10,8 @@ function validation() {
     // Si no se cumple la condicion...
     alert('[ERROR] El campo mensaje debe estar lleno');
     return false;
+  }else{
+      
   }
   let data = 'Nombre: ' + name + ' Mensaje: ' + message;
   // Si el script ha llegado a este punto, todas las condiciones
