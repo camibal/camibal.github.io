@@ -1290,6 +1290,12 @@ footer .credits a {
   }
 }
 
+@media (max-width: 767px) {
+  .work-box {
+    height: auto;
+  }
+}
+
 @media (max-width: 576px) {
   .img_portfolio {
     height: 165px;
