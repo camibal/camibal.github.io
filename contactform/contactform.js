@@ -41,7 +41,9 @@ formulario.addEventListener('submit', (event) => {
     } else {
       window.open(urlDesktop + mensaje, '_blank')
     }
-    buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
-    buttonSubmit.disabled = false
+    // buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
+    // buttonSubmit.disabled = false
+    location.reload();
+    alert('Mensaje enviado exitosamente');
   }, 100);
 });
