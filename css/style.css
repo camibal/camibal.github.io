@@ -805,7 +805,7 @@ a:hover {
 
 .img_portfolio_app {
   width: 100%;
-  height: 400px;
+  height: auto;
 }
 
 /*------/ Comments /------*/
